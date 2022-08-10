@@ -1,0 +1,194 @@
+@media (min-width: 769px) and (max-width: 1180px) {
+    .tipos-sorvetes {
+        width: 70%;
+        height: 60%;
+        margin-top: 10%;
+    }
+
+    .conteudo.texto h3{
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+
+    .conteudo.texto h2 {
+        margin: 15px 0;
+        font-size: 1.2em;
+    }
+    
+    .conteudo.texto p {
+        font-size: 1em;
+        line-height: 1.3em;
+        margin-bottom: 10px;
+    }
+    .conteudo.texto a {
+        color: #000;
+        font-size: 1em;   
+    }
+
+    .saude-conteudo, .avaliacao-conteudo {
+        padding: 50px;
+    }
+
+    .saude-conteudo h1, .avaliacao-conteudo h1 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .saude-conteudo p, .avaliacao-conteudo p {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+
+    .saude-conteudo a {
+        color: #000;
+        font-size: 1em;   
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .header .titulo {
+        font-size: 3.5em;
+        margin-bottom: 50px;
+    }
+
+    .header .sub-titulo {
+        font-size: 1.5em;
+    }
+
+    .menus {
+        flex-direction: column;
+    }
+
+    .menus .receita {
+        width: 100%;
+    }
+
+    .sorvetes {
+        height: 80vh;
+    }
+
+    .tipos-sorvetes {
+        width: 80%;
+    }
+
+    .sorvete {
+        width: 210px;
+        height: 170px;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    .conteudo  {
+        width: 100%;
+        height: 400px;
+    }
+
+    .saude, .avaliacao {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .saude-conteudo, .avaliacao-conteudo {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .saude-foto, .avaliacao-foto {
+        width: 100%;
+    }
+    
+
+    
+}
+    
+
+
+@media (min-width: 0px) and (max-width: 479px) {
+    .header img {
+        padding: 20px ;
+        width: 300px;
+    }
+
+    .header .titulo {
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+
+    .header .sub-titulo {
+        font-size: 1.2em;
+    }
+
+    .menu .menu-titulo {
+        padding: 20px 20px;
+    }
+
+    .menu-titulo h1 {
+        font-size: 1.5em;
+    }
+
+    .menus {
+        flex-direction: column;
+    }
+
+    .menus .receita {
+        width: 100%;
+    }
+
+    .tipos-sorvetes {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sorvete {
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .sorvete img {
+        width: 30px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .sorvete p {
+      font-size: 0.9em;
+    }
+
+    .conteudo  {
+        width: 100%;
+        height: 400px;
+    }
+
+    .saude, .avaliacao {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .saude-conteudo, .avaliacao-conteudo {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .saude-conteudo h1, .avaliacao-conteudo h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .saude-conteudo p, .avaliacao-conteudo p {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .saude-foto, .avaliacao-foto {
+        width: 100%;
+    }
+
+    
+}

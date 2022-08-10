@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Inicio Header */
+.header {
+    background: rgba(0, 0, 0, 0.7) url(src/imagens/principal.jpeg) center no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.header img {
+    padding: 60px 20px;
+    width: 300px;
+}
+
+.header .titulo {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.header .sub-titulo {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.6em;
+    padding: 0 20px;
+}
+
+/* Final Header */
+
+/* Inicio Menus */
+
+.container-menu {
+    background-color: #F2F2F2;
+}
+.menu {
+    width: 90%;
+    margin: auto;
+}
+
+.menu .menu-titulo {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.menu-titulo h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.menu-titulo h1 {
+    font-size: 2.5em;
+}
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 50px;
+}
+
+.menus .receita {
+width: 47%;
+margin-bottom: 30px;
+padding: 20px;
+text-align: center;
+}
+
+.receita h3 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.receita span {
+    line-height: 1.6em;
+}
+/* Final Menus */
+
+/* Inicio Sorvetes */
+.sorvetes {
+    background: #333 url(src/imagens/icecream1.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tipos-sorvetes {
+    width: 60%;
+    height: 50%;
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sorvete {
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    color: #fff;
+    padding: 25px;
+}
+
+.sorvete img {
+    width: 50px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.sorvete p {
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Final Sorvetes */
+
+/* Inicio Fotos */
+.container-fotos {
+    width: 90%;
+    margin: auto;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.conteudo  {
+   
+    width: 33%;
+    height: 400px;
+}
+
+.conteudo img {
+    width: 100%;
+    height: 400px;
+}
+
+.conteudo.texto {
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.conteudo.texto h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.conteudo.texto h2 {
+    margin: 30px 0;
+}
+
+.conteudo.texto p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.conteudo.texto a {
+    color: #000;
+    font-size: 1.2em;   
+}
+
+.conteudo.texto a:hover {
+    color: #000;
+    font-size: 1.3em;   
+}
+/* Fim fotos */
+
+/* Inicio Saude */
+.container-saude, .container-avaliacao {
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+}
+
+.saude, .avaliacao {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 80px;
+}
+
+.saude-conteudo, .avaliacao-conteudo {
+    width: 50%;
+    padding: 80px;
+}
+
+.saude-conteudo h1, .avaliacao-conteudo h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.avaliacao-conteudo h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+    margin-top: 30px;
+}
+
+.saude-conteudo p, .avaliacao-conteudo p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.avaliacao-conteudo span {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    display: block;
+    margin-top: 80px;
+}
+
+
+.saude-conteudo a {
+    color: #000;
+    font-size: 1.3em;   
+}
+
+.saude-conteudo a:hover {
+    font-size: 1.4em;   
+}
+
+.saude-foto, .avaliacao-foto {
+    width: 50%;
+}
+
+i {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+/* Fim Saude */
+
